@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/FirstFragment">
+
+    <fragment
+        android:id="@+id/FirstFragment"
+        android:name="com.example.herramientas.FirstFragment"
+        android:label="Alta de Herramienta"
+        tools:layout="@layout/fragment_first">
+        <action
+            android:id="@+id/action_FirstFragment_to_ListaHerramientasFragment"
+            app:destination="@id/ListaHerramientasFragment" />
+        <action
+            android:id="@+id/action_FirstFragment_to_AsignacionFragment"
+            app:destination="@id/AsignacionFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/ListaHerramientasFragment"
+        android:name="com.example.herramientas.ListaHerramientasFragment"
+        android:label="Listado de Herramientas"
+        tools:layout="@layout/fragment_lista_herramientas" />
+
+    <fragment
+        android:id="@+id/AsignacionFragment"
+        android:name="com.example.herramientas.AsignacionFragment"
+        android:label="Asignar Herramienta"
+        tools:layout="@layout/fragment_asignacion" />
+
+</navigation>
