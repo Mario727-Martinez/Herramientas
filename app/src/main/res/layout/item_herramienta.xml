@@ -28,4 +28,34 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="end">
+
+        <Button
+            android:id="@+id/compartir_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Compartir"
+            android:visibility="gone"/>
+
+        <Button
+            android:id="@+id/devolver_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Devolver"
+            android:layout_marginStart="8dp"
+            android:visibility="gone"/>
+
+        <Button
+            android:id="@+id/eliminar_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="Eliminar" />
+
+    </LinearLayout>
+
 </LinearLayout>

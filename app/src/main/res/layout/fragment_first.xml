@@ -70,7 +70,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="8dp"
-            android:text="Seleccionar foto" />
+            android:text="Tomar foto" />
 
         <Button
             android:id="@+id/guardar_button"

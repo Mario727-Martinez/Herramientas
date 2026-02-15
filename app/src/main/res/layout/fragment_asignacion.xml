@@ -21,14 +21,20 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:hint="Fecha de inicio (YYYY-MM-DD)" />
+        android:hint="@string/fecha_inicio_hint"
+        android:focusable="false"
+        android:inputType="none"
+        android:autofillHints="" />
 
     <EditText
         android:id="@+id/fecha_fin_edit_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:hint="Fecha de fin (YYYY-MM-DD)" />
+        android:hint="@string/fecha_fin_hint"
+        android:focusable="false"
+        android:inputType="none"
+        android:autofillHints="" />
 
     <Button
         android:id="@+id/asignar_button"
@@ -36,6 +42,6 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="16dp"
-        android:text="Asignar" />
+        android:text="@string/asignar_button_text" />
 
 </LinearLayout>
